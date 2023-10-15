@@ -12,7 +12,7 @@ function App() {
     <Routes>
       <Route element={<LoginLayout />}>
         <Route path="/login" element={<Login />} />
-        <Route path="/registration" element={<Registration />} />
+        <Route path="/register" element={<Registration />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
       </Route>
       <Route element={<Protected />}>
