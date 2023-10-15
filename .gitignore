@@ -1,0 +1,20 @@
+# dependencies
+/node_modules
+
+# build output
+/build
+
+# environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.idea
+.vscode
+*.iml
+
+# misc
+.DS_Store
+Thumbs.db
